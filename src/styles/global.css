@@ -1,0 +1,122 @@
+:root {
+    --gray: #f6f6f6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-size: 14px;
+    font-family: "Avenir Next";
+}
+
+h1 {
+    color: #F92E52;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.Line {
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    background: black;
+    align-self: center;
+}
+
+/*-----------------styling icons------------*/
+
+@font-face { font-family: 'fontAwesome';
+    src: url('../../static/ezderm.woff') format('woff');
+}
+
+.anatomicalMaps,
+.realTimeDoc,
+.customizable,
+.flexible,
+.multiUser,
+.automated,
+.imageComparison,
+.toDoModule,
+.advancedMohs,
+.advancedCosmetic,
+.favoritePrescriptions,
+.advancedScheduling,
+.pgrsMeasures,
+.patientAlerts,
+.problemTimeline,
+.digitalConsents,
+.pharmacyGeolocation,
+.biopsyTracker,
+.problemTracker,
+.iphone,
+.integrated,
+.practiceDashboard,
+.appointmentSearch,
+.smsReminders,
+.automatedEligibility,
+.patientInsurance,
+.customizableFeeSchedules,
+.billingEncounters,
+.claimManagement,
+.claimLog,
+.patientFinancialLog,
+.eob,
+.era,
+.refundManagement,
+.statementManagement,
+.automatedFaxing,
+.customizableReports,
+.automatedInterviewing,
+.intelligentAppointmentCheckIn,
+.patientEngagement,
+.appointmentReminders {
+    font-family: 'fontAwesome';
+    font-size: 60px;
+    color: #F92E52!important;
+    margin-bottom: 10px;
+}
+
+.anatomicalMaps:before{content:'\0041';}
+.realTimeDoc:before{content:'\0042';}
+.customizable:before{content:'\0043';}
+.flexible:before{content:'\0044';}
+.multiUser:before{content:'\0045';}
+.automated:before{content:'\0046';}
+.imageComparison:before{content:'\0047';}
+.toDoModule:before{content:'\0048';}
+.advancedMohs:before{content:'\0049';}
+.advancedCosmetic:before{content:'\0050';}
+.favoritePrescriptions:before{content:'\004b';}
+.advancedScheduling:before{content:'\0056';}
+.pgrsMeasures:before{content:'\004d';}
+.patientAlerts:before{content:'\0063';}
+.problemTimeline:before{content:'\004f';}
+.digitalConsents:before{content:'\e90f';}
+.pharmacyGeolocation:before{content:'\0051';}
+.biopsyTracker:before{content:'\0052';}
+.problemTracker:before{content:'\004f';}
+.iphone:before{content:'\0053';}
+.integrated:before{content:'\0054';}
+.practiceDashboard:before{content:'\0055';}
+.appointmentSearch:before{content:'\0057';}
+.smsReminders:before{content:'\0058';}
+.automatedEligibility:before{content:'\0059';}
+.patientInsurance:before{content:'\005a';}
+.customizableFeeSchedules:before{content:'\0061';}
+.billingEncounters:before{content:'\0062';}
+.claimManagement:before{content:'\0064';}
+.claimLog:before{content:'\0065';}
+.patientFinancialLog:before{content:'\0066';}
+.eob:before{content:'\0067';}
+.era:before{content:'\0068';}
+.refundManagement:before{content:'\0069';}
+.statementManagement:before{content:'\006a';}
+.automatedFaxing:before{content:'\006b';}
+.customizableReports:before{content:'\006c';}
+.automatedInterviewing:before{content:'\e900';}
+.intelligentAppointmentCheckIn:before{content:'\e901';}
+.patientEngagement:before{content:'\e902';}
+.appointmentReminders:before{content:'\e903';}

@@ -1,0 +1,29 @@
+.Container {
+    background: var(--gray);
+    padding: 100px 150px;
+}
+
+.Span {
+    margin-bottom: 20px;
+}
+
+.Section {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.TextContainer {
+    margin-top: 10px;
+}
+
+.Section p {
+    margin: 3px 0;
+    font-size: 1em;
+}
+
+.Section a {
+    font-size: 1.2em;
+    font-weight: bold;
+}

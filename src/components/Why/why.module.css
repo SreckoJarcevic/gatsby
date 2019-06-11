@@ -1,0 +1,68 @@
+.WhyContainer {
+    display: flex;
+    flex-direction: column;
+    /*font-size: 1.5em;*/
+    text-align: center;
+}
+
+.Reasons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Reasons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    min-width: 21%;
+    flex: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .Reasons div {
+        min-width: 45%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Reasons div {
+        min-width: 95%;
+    }
+}
+
+.Reasons img {
+    width: 150px;
+    height: 150px;
+}
+
+.Reasons h2 {
+    font-size: 1.4em;
+}
+
+.Reasons p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #818181;;
+}
+
+.left {
+    transform:translate(-20%); opacity:0; transition: all 1.5s ease-out;
+}
+
+.right {
+    transform:translate(20%); opacity:0; transition: all 1.5s ease-out;
+}
+
+.center {
+    transform:translateY(-20%); opacity:0; transition: all 1.5s ease-out;
+}
+
+.Reasons img:global(.delighter.started) {
+    transform:none; opacity:1;
+}
+
+.Introduction {}
+
+.Introduction:global(.delighter) { transform:translateY(-40%); opacity:0; transition: all 1.5s ease-out; }
+.Introduction:global(.delighter.started) { transform:none; opacity:1; }

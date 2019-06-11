@@ -1,0 +1,113 @@
+.ProductPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Image {
+    margin-top: 80px;
+    width: 400px;
+}
+
+.Image img {
+    width: 100%;
+}
+
+.Container {
+    display: flex;
+    margin-top: 80px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.Chunk {
+    display: flex;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: all 0.4s ease-out;
+}
+
+.IconsLeft {
+    flex-direction: row-reverse;
+    transform: translateX(200px) !important;
+}
+
+.Animate {
+    transform: none !important;
+    opacity: 1;
+}
+
+.Chunk i {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.Text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+    color: #818181;
+}
+
+.Text p {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.Text button {
+    margin-bottom: 10px;
+    font-size: 9px;
+    border: none;
+    color: gray;
+    width: 25%;
+    text-align: left;
+    padding: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.Text button:hover {
+    color: darkgray;
+}
+
+.LeftText button {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.Text div {
+    width: 50%;
+}
+
+.Expanded {
+    height: 165px;
+    overflow: hidden;
+}
+
+.LeftText div {
+    align-self: flex-end;
+    text-align: right;
+}
+
+.Icons {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Icons p {
+    height: 90%;
+    border-left: 2px dotted;
+}
+
+.Icons i:hover {
+    color: #1abc9c !important;
+}

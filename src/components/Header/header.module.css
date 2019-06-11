@@ -1,0 +1,130 @@
+.Container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    padding-bottom: 1px;
+    box-shadow: 0 -2px 7px 0 rgba(0,0,0,0.45);
+}
+
+
+.Nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.Nav p {
+    font-size: 1em;
+}
+
+.Dropdown {
+    position: relative;
+}
+
+.DropButton {
+    padding: 20px 15px;
+    background: white;
+    border: 0;
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+}
+
+.DropButton:focus .DropdownMenu {
+    display: block;
+}
+
+.DropdownMenu {
+    display: none;
+    position: absolute;
+    width: 170px;
+    margin-top: -3px;
+    margin-left: -10px;
+    padding: 0 0 10px 10px;
+    background: #f92e52;
+}
+
+.Dropdown:hover .DropdownMenu {
+    display: block;
+}
+
+.DropdownMenu li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.DropdownMenu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.DropdownMenu a:hover {
+    color: black;
+}
+
+
+.Links {
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.Links:hover {
+    color: gray;
+}
+
+@media screen and (max-width: 900px) {
+    .Container {
+        justify-content: space-between;
+    }
+    .Nav {
+        position: fixed;
+        top: 51px;
+        flex-direction: column;
+        background: white;
+        width: 200px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .Links {
+        border-top: 1px solid lightgray;
+    }
+    .DropdownMenu {
+        margin-top: -60px;
+        margin-left: 200px;
+    }
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.Logo img {
+    height: 80%;
+}
+
+.Input {
+    margin: 11px;
+    height: 30%;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.ShortMenuIcon {
+    margin-left: 85px;
+    background: none;
+    border: none;
+}
+
+.ShortMenuIcon img{
+    width: 25px;
+}

@@ -1,0 +1,68 @@
+const features = [
+  {
+    img: "one-system.png",
+    title: "ONE SYSTEM",
+    first: "A single system that",
+    second: "manages your entire",
+    third: "practice workflow",
+    position: "left",
+  },
+  {
+    img: "intuitive.png",
+    title: "INTUITIVE",
+    first: "The most intuitive",
+    second: "software with a short",
+    third: "learning curve",
+    position: "center",
+  },
+  {
+    img: "affordable.png",
+    title: "AFFORDABLE",
+    first: "A dermatology-specific",
+    second: "system that increases",
+    third: "the value of your work",
+    position: "center",
+  },
+  {
+    img: "cloud-based.png",
+    title: "CLOUD BASED",
+    first: "A fully mobile system that",
+    second: "brings you all of the benefits",
+    third: "of cloud computing",
+    position: "right",
+  },
+  {
+    img: "automated-technology.png",
+    title: "AUTOMATED TECHNOLOGY",
+    first: "Improve your office",
+    second: "productivity with",
+    third: "EZDERM automation",
+    position: "left",
+  },
+  {
+    img: "100customizable.png",
+    title: "100% CUSTOMIZABLE",
+    first: "EZDERM enables you",
+    second: "to practice dermatology",
+    third: "your way",
+    position: "center",
+  },
+  {
+    img: "realtime-documentation.png",
+    title: "REAL-TIME DOCUMENTATION",
+    first: "Reclaim your",
+    second: "free time with our",
+    third: "advanced system",
+    position: "center",
+  },
+  {
+    img: "built-for-the-future.png",
+    title: "BUILT FOR THE FUTURE",
+    first: "Use EZDERM to easily",
+    second: "manage ICD-10, PQRS, and",
+    third: "MACRA requirements",
+    position: "right",
+  },
+]
+
+export default features

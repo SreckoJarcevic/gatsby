@@ -1,0 +1,52 @@
+.Certified {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--gray);
+    padding-top: 50px;
+}
+
+.ImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.ImgContainer a {
+    margin: 0 20px;
+}
+
+.ImgContainer a:first-child {
+    height: 12vw;
+}
+
+.ImgContainer a:last-child {
+    height: 13vw;
+}
+
+.ImgContainer img {
+    height: 100%;
+}
+
+.Left:global(.delighter) {
+    transform: translate(-20%);
+    opacity: 0;
+    transition: all 1.5s ease-out
+}
+
+.Right:global(.delighter) {
+    transform: translate(20%);
+    opacity: 0;
+    transition: all 1.5s ease-out
+}
+
+.Left:global(.delighter.started) {
+    transform: none;
+    opacity: 1;
+}
+
+.Right:global(.delighter.started) {
+    transform: none;
+    opacity: 1;
+}

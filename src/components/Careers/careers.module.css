@@ -1,0 +1,47 @@
+.Img {
+    width: 100%;
+}
+
+.Careers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 150px;
+    background: var(--gray);
+}
+
+.Form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.InputWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InputWrapper Input {
+    width: 31%;
+}
+
+.Title {
+    width: 100%;
+}
+
+.ButtonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ButtonWrapper label {
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #8b8b8b;
+}

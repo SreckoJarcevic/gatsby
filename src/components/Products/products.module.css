@@ -1,0 +1,44 @@
+.Container {
+    display: flex;
+}
+
+.Container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Container i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.Container Button {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.Container h2 {
+    font-size: 1.4em;
+}
+
+.Container p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #818181;;
+}
+
+.Image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 950px){
+    .Container {
+        flex-direction: column;
+    }
+
+    .Image {
+        width: 50%;
+    }
+}

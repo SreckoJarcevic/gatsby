@@ -1,0 +1,157 @@
+.Container {
+    background: var(--gray);
+}
+
+.Footer {
+    display: flex;
+    height: 275px;
+    padding: 70px 0;
+    z-index: 10;
+}
+
+.Left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: flex-start;
+}
+
+.LeftForFooter {
+    align-items: flex-end;
+}
+
+
+
+
+.Left p {
+    margin: 5px 0;
+    color: #818181;
+    font-size: 1.3em;
+}
+
+.LogoContainer {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.LogoContainer img {
+    height: 100%;
+}
+
+.Right {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    padding: 0 50px;
+    border-left: 1px solid #b8b8b8;
+}
+
+
+.Right ul {
+    padding-left: 0;
+}
+
+.Right li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.Right a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 1.1em;
+    transition: all 0.5s ease-out;
+}
+
+.Right a:hover {
+    color: black;
+}
+
+.Right div {
+    margin-right: 50px;
+}
+
+.Right h2 {
+    color: #F92E52;
+}
+
+@media screen and (max-width: 835px){
+    .Footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .Left {
+        width: auto;
+        margin-right: 0;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .Right {
+        width: auto;
+        border-left: none;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Right {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Right div {
+        margin-right: 0;
+    }
+    .Right ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.Copyright {
+    text-align: center;
+    font-size: 1em;
+    color: #818181;
+    height: 25px;
+}
+
+.Copyright img {
+    height: 80%;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+.ButtonWrap {
+    max-width: 250px;
+    position: relative;
+    background: linear-gradient(to bottom, #aa6afa, #1abc9c);
+    padding: 2px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.Button {
+    color: #818181;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Button:hover {
+    color: red;
+}
+
+.PhoneIcon {
+    background: -webkit-linear-gradient(#1abc9c, #aa6afa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(90deg);
+    font-size: 14px;
+    margin-right: 3px;
+}
